@@ -9,4 +9,4 @@ culturestreak = ">=1.1"
 [dev-packages]
 
 [requires]
-python_version = "3.8.2"
+python_version = "3.8.10"
