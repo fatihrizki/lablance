@@ -4,7 +4,7 @@ from flask import render_template
 import culturestreak
 
 app = Flask(__name__)
-culturestreak.processing('streamlit')
+culturestreak.processing()
 @app.route("/")
 def hello():
     return render_template('index.html')
